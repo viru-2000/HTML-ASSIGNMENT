@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <style>
+      .scale-div {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db; /* Blue color */
+            transition: transform 0.3s ease; /* Smooth transition */
+        }
+
+        .scale-div:hover {
+            transform: scale(1.5); /* Scale up by 1.5 times */
+            /* Alternatively, you can use scaleX and scaleY:
+            transform: scaleX(1.5) scaleY(1.5);
+            */
+
+            
+        }
+
+        table {
+            border-collapse: collapse; 
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px; 
+        }
+
+        .top {
+            vertical-align: top; /* Aligns content to the top */
+        }
+        .middle {
+            vertical-align: middle; /* Aligns content to the middle */
+        }
+        .bottom {
+            vertical-align: bottom; /* Aligns content to the bottom */
+        }
+
+        .p78{
+          position: relative; 
+          width: 100px;
+           height: 100px;
+           background-color: lightblue;
+           transition: transform 0.5s ease;
+        }
+        
+        .p78:hover {
+            transform: rotate(100deg); 
+        }
+
+        .p78:active {
+            transform: rotate(-50deg); 
+        }
+
+        .p79 {
+            width: 100px;
+            height: 100px;
+            transition: transform 0.3s ease; 
+            background-color: lightcoral;
+        }
+
+        .p79:hover {
+         
+         
+            transform: translate(20px, 20px); 
+            
+        }
+
+
+        .p80 {
+            width: 100px;             
+            height: 100px;            
+            background-color: lightgreen; 
+             
+            text-align: center;         
+            transition: transform 0.3s ease;
+            margin: 50px;              
+            border: 1px solid #000;    
+        }
+
+        .p80:hover {
+            transform: translate(20px, 20px); 
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body data-bs-theme="dark">
+    <!-- 51) create a div with dummy content , having width : 1000px , align the same div in center of the screen (hint: use margin) -->
+
+    <div class="div51" style="margin: auto;width: 1000px;">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos odio animi dolorum, aliquid facilis consequatur cupiditate similique vel iusto laboriosam? Enim nostrum sint architecto nisi labore, at error iure!
+    </div>
+   <br>
+    <!-- 52) create a div (having width:100px , height:100px ). apply padding from all side with 40px value. (use individual property for padding or shorthand property) -->
+
+    <div class="div" style="width: 100px;height: 100px;padding: 25px 50px 75px 100px;;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magni suscipit assumenda impedit modi. Soluta minus accusamus vel facere illum, fugit amet temporibus odit earum deleniti cum alias eos quo.
+
+    </div>
+
+ 
+<!-- 53) create a div (having width:100px , height:100px ). on mouse over scale it using transform property (hint: use scale() , scaleX() , scaleY() ) -->
+
+
+<div class="scale-div">
+
+</div>
+
+<!-- 54) Print some preformatted text of your choosing. (hint: use the <pre> tag) -->
+
+    
+<pre>
+This is an example of preformatted text.
+    It preserves     spaces and
+line breaks.
+
+You can also include code snippets:
+function greet(name) {
+    console.log("Hello, " + name + "!");
+}
+</pre>
+
+
+<!-- 55) Create some links to various search engines (google, yahoo, altavista, lycos, etc)
+ -->
+<div class="nav">
+   <a href="https://www.google.co.in/">Google</a>
+     <a href="https://in.search.yahoo.com/?fr2=inr">yahoo</a>
+       <a href="https://search.yahoo.com/?fr=altavista">altvista</a>
+         <a href="https://www.lycos.com/">lycos</a>
+</div>
+
+<br>
+<!-- 56) Create links to five different pages on five different websites that should all open in a new window -->
+ <div class="nav">
+   <a href="https://www.google.co.in/" target="_blank" >Google</a>
+     <a href="https://in.search.yahoo.com/?fr2=inr" target="_blank">yahoo</a>
+       <a href="https://search.yahoo.com/?fr=altavista" target="_blank">altvista</a>
+         <a href="https://www.lycos.com/" target="_blank">lycos</a>
+</div>
+
+<!-- 57) Display an image that has a border of size 2, a width of 200, and a height of 200. -->
+ <div class="div57">
+    <img style="border:2px solid; width: 200px; height: 200px;" src="./girl2.jpg" alt="">
+ </div>
+
+<!-- 58) Display an image that when clicked will link to google.com (should be opened in a new window). -->
+
+<a href="https://www.google.co.in/" target="_blank"> <img style="border:2px solid; width: 200px; height: 200px;" src="./girl2.jpg" alt=""></a>
+
+<!-- 59) create a div tag with dummy content & displays text in italic format. -->
+<div>
+  <p style="font-style:italic;">This is a dummy content</p>
+</div>
+<!-- 60) how to indent first line of paragraph having dummy content? -->
+<div><p> <span style=" text-indent: 50px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>spanQuae quasi quo sunt cumque dolorem voluptates quisquam maxime officia eligendi sapiente. 
+  Natus voluptate iusto modi ipsam et veniam id dicta non.</p></div>
+
+  <!-- 71) what is cellpadding in table? please write down sample code for the same -->
+  <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+
+
+
+<!-- 72) show an example for vertical alignment in table with sample code -->
+<table>
+  <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+  </tr>
+  <tr>
+      <td class="top">Top Aligned Content</td>
+      <td class="middle">Middle Aligned Content</td>
+  </tr>
+  <tr>
+      <td class="bottom">Bottom Aligned Content</td>
+      <td class="middle">Middle Aligned Content</td>
+  </tr>
+</table>
+
+
+<!-- 73) what is the use of iframe? please create a sample code for iframe tag -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6163.089349582063!2d73.01846887516216!3d19.020791096005908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c20c57446235%3A0xf2065ffad82ad892!2sNexus%20Seawoods!5e0!3m2!1sen!2sin!4v1731084933188!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Location ;)</iframe>
+
+
+<!-- 74) create a sample code for video tag with controls -->
+
+
+<video width="500px" height="400px" margin="auto" controls>
+  <source src="./3578982-uhd_3840_2160_30fps.mp4">
+</video>
+
+<!--75) create a sample code for audio tag with controls  -->
+<audio width="500px" height="400px" controls>
+  <source src="./flute.mp3">
+</audio>
+
+<!-- 76) create a para with dummy content , highlight or apply background color on  some words using span tag   -->
+<p>Lorem ipsum dolor, <span style="background-color: yellow;">sit amet consectetur adipisicing elit.</span> Delectus error soluta nulla consequuntur recusandae exercitationem, assumenda ratione officiis voluptatum officia! Sequi,
+   placeat dolorum corrupti quae harum distinctio nobis dolores libero.</p>
+
+   <!-- 76) create a para with dummy content , highlight or apply background color on  some words using mark tag   -->
+   <p>Lorem ipsum dolor, <mark style="background-color: yellow;">sit amet consectetur adipisicing elit.</mark> Delectus error soluta nulla consequuntur recusandae exercitationem, assumenda ratione officiis voluptatum officia! Sequi,
+    placeat dolorum corrupti quae harum distinctio nobis dolores libero.</p>
+
+    <!-- 77) create a para with dummy content & hide this para using display & visibility property ( note down the diff between none & hidden value) -->
+    <p style="display: none;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></body></style>
+
+
+    <!-- 78) create a para (100X100 dimension ) on hover rotate it with 100deg , -50deg -->
+    <p class="p78">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></style>
+
+    <!-- 79) create a para (100X100 dimension ) on hover shift it with translate,translateX,translateY property -->
+    <p class="p79">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></style>
+
+    <!-- 80) create a para (100X100 dimension ) on hover move it with skew,skewX,skewY property -->
+    <p class="p80">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></style>
+  </body>
+</html>

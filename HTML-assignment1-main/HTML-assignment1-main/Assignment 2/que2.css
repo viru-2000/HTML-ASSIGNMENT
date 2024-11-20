@@ -1,0 +1,154 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: #33445b;
+    margin: 0em 4em 0.1em 4em;
+    margin-bottom: none;
+  padding-left: 2em;
+    
+}
+
+nav {
+    display: flex;
+padding-bottom: 2em;
+padding-right: 2em;
+    gap: 1em;
+}
+
+.nav1{
+    
+     margin-left: 4em;
+     margin-right: 4em;
+     margin-top: none;
+     gap: 1em;
+     background-color: antiquewhite;
+     justify-content:left;
+     justify-items: center;
+   
+}
+
+.link{
+    padding-left: 0.8em;
+    justify-content: space-between;
+    justify-items: baseline;
+
+   
+}
+
+.div1{
+     width: 200px;
+            height: 150px;
+            position: relative;
+            top: 10;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border: 2px dotted black;
+}
+img{
+    width: 195px;
+     height: 145px;
+     padding: 3px;
+}
+.div3{
+    background-color: black;
+      margin: 0em 4em 0.5em 4em;
+          border: 2px solid black;
+          height: 350px;
+          width: auto;
+          
+          
+}
+#div3_1{
+    padding-left: 1em;
+    font-size: xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    flex-direction: column;
+    justify-content: space-between;
+   
+ 
+
+}
+#div3_2{
+    line-height:0.6 ;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background-color: rgb(255, 255, 255);
+}
+
+#div3_3{
+    padding-left: 1em;
+    font-size: xx-large;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 1.5em;
+    padding-top: 1.0em;
+    flex-grow: 1
+}
+.button {
+    background-color: #04AA6D; 
+    color: white;
+    padding: 1.0em 2em;
+    text-align: center;
+    height: 50px;
+    width: 90px;
+    font-size: 16px;
+    margin-top: auto;
+    margin: 0 0.5em;
+    display: inline-flex;
+    border-radius: 10px;
+}
+.div4{
+    background-color: black;
+      margin: 0em 4em 0.5em 4em;
+          border: 2px solid black;
+          height: 290px;
+          width: auto;
+          
+          
+}
+.button1 {
+    background-color: #04AA6D; 
+    color: white;
+    padding: 1.0em 2em;
+    text-align: center;
+    height: 50px;
+    width: 90px;
+    font-size: 16px;
+    
+    margin: 0 0.5em;
+    display: inline-flex;
+    border-radius: 10px;
+    justify-items: baseline;
+}
+
+#graph{
+  
+   
+  width:1190px;
+  height: 330px;
+}
+.div5{
+    background-color: black;
+      margin: 0em 4em 0.5em 4em;
+          border: 2px solid black;
+          height: 405px;
+          width: auto;
+          
+          
+}
+
+footer {
+    color: rgb(34, 31, 31);
+    background-color: #33445b;
+    margin: 0em 4em 0.5em 4em;
+    padding: 1em;
+    
+   
+}

@@ -1,0 +1,162 @@
+.styled-paragraph {
+  border: solid 1px black;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.para {
+  border: solid 1px black;
+  height: 100px;
+  width: 100px;
+  
+}
+.para:hover{
+    background-color: gray;
+}
+.para1{
+    background-color: aquamarine;
+  
+}
+b{
+    background-color: aqua;
+}
+.h1{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+ background-image: linear-gradient(-225deg, #c35188 0%, #930b32 50%, #321575 100%);
+}
+#udr{
+    text-decoration: none;
+    
+}
+
+#para2{
+    text-align: center;
+
+}
+#para3{
+   text-align: left;
+
+}
+#para4{
+   text-align: right;
+
+}
+#para5{
+    text-align: justify;
+
+}
+#para6{
+    text-indent: 70%;
+}
+#para7{
+    background-color:grey ;
+    text-decoration: underline;
+}
+#para8{
+    background-color:grey ;
+    text-decoration: overline;
+}
+#para9{
+    background-color:grey ;
+    text-decoration: line-through;
+}
+#para10{
+    background-color:grey ;
+    text-decoration: none;
+}
+
+#anchor{
+    color: red;
+    text-decoration: none;
+}
+#img{
+    height: 200px;
+    width: 200px;
+   
+}
+#img:hover{
+    border-radius: 50%;
+    transition-delay: 2ms;
+}
+#para11{
+    background-color:grey ;
+   line-height: double;
+   word-spacing: 20px;
+   letter-spacing: 5px;
+
+}
+#para12{
+        background-color:grey ;
+    font-family: "Sofia", sans-serif;
+
+}
+ .my-div {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .my-paragraph {
+            color: darkslategray;
+            font-size: 16px;
+        }
+
+        #c1,#c2{
+  margin: auto;
+        }
+        /* <p> (Paragraph): The <p> tag is specifically designed to contain and format text as a paragraph. It automatically adds space (margins) before and after itself, which helps in organizing text content.
+<div> (Division): The <div> tag is a generic container used to group together HTML elements. It does not have any inherent styling or semantic meaning, making it useful for layout purposes. */
+
+.div19{
+     background-image: linear-gradient(
+    to right,
+    rgb(78, 189, 89),
+    rgba(247, 175, 21, 0.375),
+    rgb(55, 127, 215)
+  );
+
+  color: aliceblue;
+
+}
+#id19{
+    background-color: #6a5acd;
+}
+.div20{
+    background-color: rgba(247, 175, 21, 0.375);
+}
+
+.div21{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    margin-left: 300px;
+    margin-top: 200px;
+
+}
+
+  .div22 {
+    width: 1200px; 
+    height: 600px; 
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+#c3 li:first-child,
+#c3 li:last-child {
+    background-color: rgb(228, 13, 13);
+}
+   
+.div28{
+    background-color: #396e72;
+}
+
+.div29{
+    background-color: #a7c62b;
+}
+.div30{
+    background-color: #4fc929;
+}
